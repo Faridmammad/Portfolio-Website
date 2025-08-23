@@ -77,14 +77,14 @@ const Header: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="end"
-            onClick={handleDrawerToggle}
-            sx={{ display: { md: 'none' } }}
-          >
-            <MenuIcon />
-          </IconButton>
+  color="primary"
+  aria-label="open drawer"
+  edge="end"
+  onClick={handleDrawerToggle}
+  sx={{ display: { md: 'none' } }}
+>
+  <MenuIcon />
+</IconButton>
         </Toolbar>
       </AppBar>
 
