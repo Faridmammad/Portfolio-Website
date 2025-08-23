@@ -32,7 +32,7 @@ const Portfolio: React.FC = () => {
     {
       id: 2,
       title: 'Edupol Study Abroad',
-      description: 'A full-stack e-commerce application built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.',
+      description: 'A modern, responsive website for Edupol Study Abroad - Azerbaijan’s trusted consultancy for international education and student mobility.',
       image: edupol ,
       technologies: ['React', 'TypeScript', 'Node.js'],
       category: 'frontend',
